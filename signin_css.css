@@ -1,0 +1,123 @@
+
+*
+{
+     margin: -.3rem;
+     padding: 5;
+     box-sizing: border-box;
+}
+body
+{
+overflow: hidden;
+    background-color: #ffff;
+}
+.container
+{
+    background-color: aqua;
+    position: absolute;
+    max-width: 1400px;
+    height: 680px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 40;
+}
+.card
+{
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+    -webkit-box-shadow:0px 10px 40px -10px rgba(0,0,0,0.7);
+    -moz-box-shadow:0px 10px 40px -10px rgba(0,0,0,0.7);
+}
+.leftside
+{
+    position: relative;
+    height: 460px;
+    width: 400px;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 12px 30px;
+}
+.rightside
+{
+    position: relative;
+    height: 460px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+.form-group>input
+{
+    
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 0px 20px 100px  -15px black;
+    margin: 5px;
+
+}
+input:active
+{
+    box-shadow: 1px 1px 10px 1px navajowhite;
+    
+}
+input:hover
+{
+    
+    border: 2px navajowhite;
+    transition:  0.8s ease;
+    box-shadow: 1px 1px 10px .5px navajowhite;
+    transform:  scale(1.001) ;
+}
+input:focus
+{
+ border-style: none;
+ outline: none;
+}
+.row
+{
+    height: 50%;
+}
+
+h5
+{
+    position: relative;
+    color: #ec9410;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button
+{
+    top: 20;
+    left: 50;
+    position: relative;
+    width: 50%;
+    border-radius: 25px;
+}
+button:active
+{
+    border: 1px navajowhite;
+    
+
+}
+button:hover
+{
+    border: 1px;
+}
+i
+{
+position: relative;
+top: 40;
+/* left: 20; */
+}
+.btn
+{
+ 
+    border-radius: 25px;
+    width: 200px;
+
+}
+
